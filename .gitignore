@@ -1,0 +1,16 @@
+# Build output
+build/
+cmake-build-*/
+*.exe
+*.o
+*.obj
+
+# Qt Creator / IDE
+.qtcreator/
+CMakeLists.txt.user*
+.vscode/
+.idea/
+
+# Files generated when running the program
+encrypted.txt
+decrypted.txt
